@@ -1,3 +1,6 @@
+<h1>Decodificador De Texto</h1>
+
+<h2>:thinking: Sobre</h2>
 Desenvolvido para iniciantes em programação, o Desafio ONE é projetado para aplicar os conhecimentos adquiridos ao longo dos cursos da trilha de aprendizagem na Alura. A Apple contribuiu para a criação deste desafio, permitindo que os participantes se desafiem na resolução de problemas do mundo real.
 
 Este projeto tem como objetivo criar uma aplicação para criptografar e descriptografar palavras, incluindo a funcionalidade adicional de copiar o texto criptografado ou descriptografado. A ideia é oferecer uma ferramenta prática para codificar e decodificar palavras, facilitando ainda mais o processo com a opção de copiar os resultados para uso posterior.
