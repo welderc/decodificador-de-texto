@@ -1,0 +1,216 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Variáveis */
+:root {
+    /* Combinações de cores */
+    --primaria: #B4B4B8;
+    --secundnaria: #C7C8CC;
+    --terciaria: #E3E1D9;
+    --quaternaria: #F2EFE5;
+    --branco: #F0F5F9;
+    --preto: #000;
+
+    /* Cores dos botões */
+    --primariaBotao: #F9FAFB;
+    --segundariaBotao: #111827;
+
+    /* Fontes */
+    --interRegular: 'Inter', sans-serif;
+}
+
+/* Corpo */
+body {
+    box-sizing: border-box;
+    background: var(--terciaria);
+    color: var(--preto);
+    overflow: hidden;
+}
+
+/* Contêiner Principal */
+main {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 92.7vh;
+    gap: 80px;
+}
+
+/* Contêiner da Seção */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+}
+
+/* Contêiner de Texto */
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.texto__paragrafo__aviso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    opacity: 0.8;
+    font-family: var(--interRegular);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 5em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.texto__img {
+    width: 16px;
+    height: 16px;
+}
+
+.texto__escrever {
+    width: 100%;
+    font-family: var(--interRegular);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+    height: auto;
+    word-wrap: break-word;
+}
+
+/* Estilos do Botão */
+.botao__gerar {
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    padding-bottom: 5em;
+}
+
+.button {
+    padding: 19px 140px;
+    background-color: var(--primariaBotao);
+    border: 2px solid var(--segundariaBotao);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+    font-family: var(--interRegular);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--segundariaBotao);
+    border-radius: inherit;
+    translate: 6px 6px;
+    transition: 0.25s;
+    z-index: -1;
+}
+
+.button:hover::after {
+    translate: 0;
+}
+
+.button:hover {
+    background-color: var(--segundariaBotao);
+    color: var(--primariaBotao);
+}
+
+/* Caixa de Mensagem */
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--quaternaria);
+    height: 100%;
+    width: 400px;
+    border-radius: 37px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    z-index: 1;
+}
+
+.mensagem__texto {
+    padding: 0 32px;
+    margin: auto;
+}
+
+.mensagem__texto__mensagem {
+    width: 336px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mensagem__texto__mensagem h2 {
+    font-size: 24px;
+    height: 58px;
+    text-align: center;
+    font-family: var(--interRegular);
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.mensagem__texto__mensagem p,
+#p {
+    font-size: 16px;
+    max-width: 300px;
+    max-height: 400px;
+    text-align: center;
+    font-family: var(--interRegular);
+    font-weight: 400;
+    line-height: 24px;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+/* Botão de Copiar */
+#mensagem__button {
+    display: none;
+}
+
+.mensagem__button {
+    bottom: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Estilos da Barra de Rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 2em;
+    background-color: #000;
+    border-radius: 36px;
+}

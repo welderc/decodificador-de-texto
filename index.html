@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Seção principal -->
+    <main>
+        <!-- Entrada de texto -->
+        <section>
+            <div class="texto">
+                <!-- Rótulo para a área de texto -->
+                <label for="textoParaCriptografar" class="texto__label"></label>
+                <!-- Aviso para o usuário -->
+                <p class="texto__paragrafo__aviso"><img class="texto__img" src="img/Vector.png" alt="aviso">Apenas letras minúsculas e sem acento.</p>
+                <!-- Área de texto -->
+                <textarea class="texto__escrever" id="textoParaCriptografar" placeholder="Digite seu texto aqui"></textarea>
+            </div>
+            <!-- Botões de ação -->
+            <div class="botao__gerar">
+                <button class="button" onclick="botaoCriptografar()">Criptografar</button>
+                <button class="button" onclick="botaoDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <!-- Exibição de mensagem -->
+        <div class="mensagem" id="mensagem">
+            <div class="mensagem__texto" id="mensagem__texto">
+                <!-- Imagem associada à mensagem -->
+                <img src="img/High quality products 1 1.png" id="mensagem__texto__imagem" alt="img">
+                <!-- Conteúdo da mensagem -->
+                <div class="mensagem__texto__mensagem" id="mensagem__texto__mensagem">
+                    <h2 id="h2">Nenhuma mensagem encontrada</h2>
+                    <p id="p">Digite um texto para criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <!-- Botão de cópia -->
+            <div class="mensagem__button" id="mensagem__button">
+                <button class="button" onclick="botaoCopiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>                        
+</body>
+</html>
