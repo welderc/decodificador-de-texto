@@ -14,6 +14,12 @@ Este desafio proporciona uma oportunidade prática para os aprendizes testarem s
   <li>A letra "o" é convertida para "ober".</li>
   <li>A letra "u" é convertida para "ufat".</li>
 </ul>
+<h2>Requisitos</h2>
+<ul>
+  <li>Deve funcionar apenas com letras minúsculas</li>
+  <li>Não devem ser utilizados letras com acentos nem caracteres especiais</li>
+</ul>
+
 
 <hr>
 <p>Decodificador de texto: <a href="https://welderc.github.io/decodificador-de-texto" target="_blank">Site</a></p>
