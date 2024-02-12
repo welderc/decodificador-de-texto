@@ -6,7 +6,10 @@
 Este projeto tem como objetivo criar uma aplicação para criptografar e descriptografar palavras, incluindo a funcionalidade adicional de copiar o texto criptografado ou descriptografado. A ideia é oferecer uma ferramenta prática para codificar e decodificar palavras, facilitando ainda mais o processo com a opção de copiar os resultados para uso posterior.
 
 Este desafio proporciona uma oportunidade prática para os aprendizes testarem suas habilidades recém-adquiridas, incentivando a aplicação prática dos conceitos aprendidos. Com a parceria da Alura e o suporte da Oracle, os participantes têm a chance de aprimorar suas habilidades de programação enquanto resolvem desafios reais.</p>
-
+<h2>Site</h2>
+<hr>
+<p>Decodificador de texto: <a href="https://welderc.github.io/decodificador-de-texto" target="_blank">Site</a></p>
+<hr>
 <img src="img/criptografia.png" alt="criptografia">
 
 ## :robot: Tecnologias
