@@ -14,6 +14,10 @@ Este desafio proporciona uma oportunidade prática para os aprendizes testarem s
   <li>A letra "o" é convertida para "ober".</li>
   <li>A letra "u" é convertida para "ufat".</li>
 </ul>
+```
+"gato" => "gaitober"
+gaitober" => "gato"
+```
 <h2>Requisitos</h2>
 <ul>
   <li>Deve funcionar apenas com letras minúsculas</li>
