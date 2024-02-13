@@ -30,6 +30,7 @@ body {
     box-sizing: border-box;
     background: var(--terciaria);
     color: var(--preto);
+    overflow: auto;
 }
 
 /* Contêiner Principal */
@@ -39,7 +40,7 @@ main {
     align-items: center;
     justify-content: space-between;
     min-height: 92.7vh; /* Alterado de height para min-height */
-    overflow: auto;
+    
 }
 
 /* Contêiner da Seção */
@@ -57,6 +58,8 @@ section {
 .texto {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: auto;
     width: 80%;
@@ -96,6 +99,7 @@ section {
     overflow: hidden;
     height: auto;
     word-wrap: break-word;
+    margin:  2em;
 }
 
 /* Estilos do Botão */
