@@ -46,7 +46,7 @@ function botaoCriptografar() {
             document.getElementById("mensagem__button").style.display = "none";
         }
     } else if (textoMensagem.length > 0) {
-        exibirTextoNaTela('h2', `A string "${textoMensagem}" não é válida.`);
+        exibirTextoNaTela('h2', `O texto"${textoMensagem}" não é válida.`);
         exibirTextoNaTela('p', `Deve conter apenas letras minúsculas e sem acento.`);
         document.getElementById("mensagem__button").style.display = "none";
     } else {
@@ -87,7 +87,7 @@ function botaoDescriptografar() {
             document.getElementById("mensagem__button").style.display = "none";
         }
     } else if (textoMensagem.length > 0) {
-        exibirTextoNaTela('h2', `A string "${textoMensagem}" não é válida.`);
+        exibirTextoNaTela('h2', `O texto "${textoMensagem}" não é válida.`);
         exibirTextoNaTela('p', `Deve conter apenas letras minúsculas e sem acento.`);
         document.getElementById("mensagem__button").style.display = "none";
     } else {
