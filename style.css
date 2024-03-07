@@ -113,6 +113,7 @@ section {
 .button {
     padding: 19px 140px;
     background-color: var(--primariaBotao);
+    color: var(--segundariaBotao);
     border: 2px solid var(--segundariaBotao);
     border-radius: 0.5rem;
     cursor: pointer;
