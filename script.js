@@ -12,8 +12,9 @@ function exibirTextoNaTela(id, texto) {
 
 // Função para validar se a string contém apenas letras minúsculas sem acento
 function validaString(s) {
-    return /^\s*[a-z][a-z\s]*\s*$/i.test(s);
+    return /^\s*[a-z][a-z\s]*\s*$/g.test(s);
 }
+
 
 // Função para criptografar o texto
 function criptografarTexto(texto) {
